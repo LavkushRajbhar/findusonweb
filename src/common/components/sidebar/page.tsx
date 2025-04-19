@@ -11,10 +11,12 @@ import { menuItems } from "./sidebarData";
 
 const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(true);
+
   // Define the type for openSubmenus state
   const [openSubmenus, setOpenSubmenus] = useState<Record<string, boolean>>({});
 
   const toggleSidebar = () => setIsOpen(!isOpen);
+
 
   const toggleSubmenu = (key: string) => {
     setOpenSubmenus((prev) => {
