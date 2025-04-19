@@ -4,9 +4,9 @@
 import Image from "next/image";
 import React from "react";
 
-const Logo = ({ isMobile }) => {
+const Logo = () => {
   return (
-    <div className="relative border border-amber-200">
+    <div className="relative mt-4 px-2">
       <Image
         src="/512.png"
         alt="logo"

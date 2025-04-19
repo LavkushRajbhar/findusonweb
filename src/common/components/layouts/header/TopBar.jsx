@@ -8,7 +8,7 @@ import { image } from "@/common/data/data";
 
 const TopBar = ({ creditPoints, images }) => {
   return (
-    <div className="flex items-center justify-end pt-2 text-white text-xs sm:text-sm md:text-base">
+    <div className="flex items-center justify-end pt-2 text-white text-xs sm:text-sm md:text-base -mt-7">
       <p className="mr-2">Credit Points: &#8377; {creditPoints}</p>
       <div className="flex items-center gap-1 sm:gap-2 px-1 sm:px-2 flex-wrap">
         {image.map((img, index) => (
