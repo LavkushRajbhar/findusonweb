@@ -1,9 +1,8 @@
 /** @format */
 
 import Logo from "./Logo";
-import TopBar from "./TopBar";
 import Navigation from "./Navigation";
-import SideModal from "./SideModal";
+import TopBar from "./TopBar";
 
 const HeaderWrapper = () => {
   return (
@@ -16,7 +15,6 @@ const HeaderWrapper = () => {
         <div className="pt-2">
           <Navigation />
         </div>
-        <div>{/* <SideModal /> */}</div>
       </div>
     </div>
   );
