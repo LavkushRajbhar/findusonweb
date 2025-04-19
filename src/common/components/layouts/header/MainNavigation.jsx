@@ -81,7 +81,7 @@ const MainNavigation = ({
           )}
         </ul>
       </nav>
-    </div>
+    </div> 
   );
 };
 
